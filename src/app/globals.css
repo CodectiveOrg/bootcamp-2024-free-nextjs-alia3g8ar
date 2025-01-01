@@ -1,4 +1,3 @@
-/* css variables */
 :root {
   --color-gray-98: hsl(0deg 0% 98%);
   --color-gray-90: hsl(0deg 0% 90%);
@@ -39,7 +38,6 @@
   padding: 0;
 }
 
-/* dark mode */
 html {
   color-scheme: dark;
 }
@@ -81,6 +79,8 @@ body {
 
   min-block-size: 100vh;
   min-block-size: 100dvh;
+
+  font-size: var(--fz-400);
 
   > * {
     padding-inline: var(--full-width-padding-inline);
